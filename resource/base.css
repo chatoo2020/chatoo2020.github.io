@@ -1,0 +1,34 @@
+/*base层*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,textarea,p,th,td{ margin:0px; padding:0px; }
+h1,h2,h3,h4,h5,h6{ font-size:100%; font-weight:normal;}
+table{ border-collapse:collapse; border-spacing:0; font-size:inherit; font:100%;}/*表格的边框合并为一个框 相邻单元格的边框间的距离0 字体大小继承上一级的设置*/
+ol,ul{ list-style:none; }/*去除前面的点*/
+fieldset,img,a img{ border:none; }/*去除边框*/
+a,a:hover{ text-decoration:none; color:#000; }/*去除下划线*/
+/*网站居中*/
+.warp1000{ width:1000px; margin:0px auto;}
+.warp1200{ width:1200px; margin:0px auto;}
+/*文字排版*/
+.fb{ font-weight:bold;}
+.fn{ font-weight:normal;}
+.lh150{ line-height:150%;}
+.lh180{ line-height:180%;}
+.lh200{ line-height:200%;}
+/*字体*/
+.my{ font-family: Microsoft Yahei;}
+.ss{ font-family: "SimSun";}
+/*定位*/
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+.fl{ float:left;}
+.fr{ float:right;}
+.pr{ position:relative;}
+.pa{ position:absolute;}
+.none{ display:none;}
+/*清除浮动*/
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden; }
+.clearfix{display:inline-table;}/* Hides from IE-mac \*/
+* html .clearfix{height:1%;}
+.clearfix{display:block;}/* 结束 hide from IE-mac */
+*+html .clearfix{min-height:1%;}/* IE7 */
